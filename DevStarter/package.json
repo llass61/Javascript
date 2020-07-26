@@ -1,0 +1,12 @@
+{
+  "name": "javascript-dev-env",
+  "version": "1.0.0",
+  "description": "Development Starter for js apps",
+  "scripts": {},
+  "author": "Larry Lassetter",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.17.1",
+    "open": "^7.0.4"
+  }
+}

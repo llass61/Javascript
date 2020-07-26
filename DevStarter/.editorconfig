@@ -1,0 +1,34 @@
+﻿# EditorConfig is awesome: https://EditorConfig.org
+
+# top-most EditorConfig file
+root = true
+
+# Windows-style newlines with a newline ending every file
+[*]
+indent_style = space
+indent_size = 3
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+charset = utf-8
+
+# override 'end_of_line' for those files that run on unix/linux machines
+# [*.{js,html,sh}]
+# end_of_line = lf
+
+
+# python space indentation
+[*.py]
+
+
+# Indentation override for all JS under lib directory
+[lib/**.js]
+
+
+# Indentation override for all css under lib directory
+[css/**.css]
+indent_size = 3
+
+
+# Matches the exact files either package.json
+[{package.json}]
